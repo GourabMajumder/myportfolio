@@ -20,13 +20,15 @@
     <div class="container">
       <span class="title-center title">My Portfolio</span>
       <div class="toggle-menu">
-        <i class="fas fa-ellipsis-v"></i>
+        <i id="clickMenu" onclick="onClickMenu()" class="fas fa-ellipsis-v"></i>
       </div>
       <div class="nav-menu">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <ul>
+          <li><a class="menu-item" href="#home">Home</a></li>
+          <li><a class="menu-item" href="#about">About</a></li>
+          <li><a class="menu-item" href="#skills">Skills</a></li>
+          <li><a class="menu-item" href="#projects">Projects</a></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -206,6 +208,7 @@
       <p>Created by Gourab Majumder.<br> Copyright &copy</p>
     </div>
   </section>
+  <script src="script.js"></script>
 </body>
 
 </html>

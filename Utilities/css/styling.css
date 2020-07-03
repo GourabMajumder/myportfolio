@@ -25,6 +25,7 @@ body {
     overflow: hidden;
     padding: 1rem 1rem;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -38,8 +39,9 @@ body {
     display: none;
 }
 
-.nav-menu {
-    float: left;
+.nav-menu ul {
+    align-items: center;
+    justify-content: center;
     word-spacing: .6rem;
     margin: auto;
 }
@@ -60,7 +62,13 @@ body {
     display: none;
 }
 
-a {
+.nav-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    cursor: alias;
+}
+
+.nav-menu ul li a {
     text-align: center;
     text-decoration: none;
     font-size: 1rem;

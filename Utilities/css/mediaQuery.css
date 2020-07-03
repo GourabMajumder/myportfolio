@@ -1,0 +1,93 @@
+@media screen and (max-width: 960px) {
+    .progressbar-container {
+        display: flex;
+        justify-content: space-around + safe;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .progressbar-container {
+        display: flex;
+        justify-content: space-around + safe;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .info {
+        font-size: 10px;
+    }
+    .fa {
+        font-size: .5rem;
+    }
+    .contact {
+        font-size: 10px;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+}
+
+@media screen and (max-width: 585px) {
+    
+    .container-2 {
+        display: flex;
+        justify-content: space-around + safe;
+        flex-direction: column;
+    }
+
+    .picture-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .info-container {
+        display: flex;
+    }
+
+    .name {
+        font-size: 25px;
+        text-align: center;
+    }
+    .info {
+        font-size: 15px;
+        text-align: center;
+    }
+    .fa {
+        font-size: .8rem;
+    }
+    .contact {
+        font-size: 10px;
+        float: left;
+    }
+    .info-main-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social-connect {
+        font-size: 22px;
+        text-align: center;
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-around;
+    }
+
+    .progressbar-container .card {
+        width: 170px;
+    }
+    
+
+}

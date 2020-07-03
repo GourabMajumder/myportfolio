@@ -88,6 +88,54 @@
     .progressbar-container .card {
         width: 170px;
     }
-    
 
+    .nav-menu {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: flex;
+        float: right;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .title-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 476px) {
+    .progressbar-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 377px) {
+
+    .progressbar-container {
+        display: flex;
+        justify-content: space-around + safe;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+
+    .name {
+        font-size: 18px;
+        text-align: center;
+    }
+    .info {
+        font-size: 12px;
+        text-align: center;
+    }
 }

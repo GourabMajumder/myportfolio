@@ -50,7 +50,7 @@ body {
     border-bottom: 2px solid transparent;
 }
 .nav-menu a:hover {
-    border-bottom: 2px solid;
+    border-bottom: 2px groove ;
 }
 
 .nav-menu a.active {
@@ -72,6 +72,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
+    font-weight:500;
     color: #063647;
 }
 img {
@@ -83,6 +84,7 @@ img {
 
 .section-2 {
     max-width: 1200px;
+    z-index: -1;
     margin: auto;
     padding: 3rem;
     color: #dfdfdf;
@@ -156,11 +158,12 @@ img {
     margin: auto;
     padding: 3rem;
     display: flex;
+    transform: translateY(.1px);
     align-items: center;
     justify-content: center;
     color: #dfdfdf;
     background-color: sienna;
-    box-shadow: 10px 10px 15px rgba(107, 26, 2, 0.6);
+    box-shadow: 10px 10px 15px rgba(94, 20, 1, 0.5);
 }
 
 .container-3 {
@@ -219,8 +222,9 @@ img {
     align-items: center;
     justify-content: center;
     color: #dfdfdf;
-    background-color: sienna ;
-    box-shadow: 10px 10px 15px rgba(107, 26, 2, 0.6);
+    background-color: sienna;
+    transform: translateY(.1px);
+    box-shadow: 10px 10px 15px rgba(94, 20, 1, 0.5);
 }
 
 .heading-3 {
